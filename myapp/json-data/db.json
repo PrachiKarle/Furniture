@@ -1,0 +1,16 @@
+{
+  "account": [
+    {
+      "id": 1,
+      "username": "Prachi",
+      "useremail":"prachi@gmai.com",
+      "password": "prachi@23"
+    },
+    {
+      "username": "Ashwini",
+      "useremail":"ash@gmai.com",
+      "password": "ash@23",
+      "id": 2
+    }
+  ]
+}

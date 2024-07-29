@@ -15,7 +15,8 @@ const SignUp=()=>{
     const save=async(e)=>{
         e.preventDefault();
         let flag=false;
-        const acc=await axios.get("http://localhost:3000/account");
+        const acc=await axios.get("https://prachikarle.github.io/JSON-Server/db.json");
+        console.log(acc.data);
         for(let x of acc.data){
             if(x.username===userName){
                 flag=true;
@@ -45,13 +46,13 @@ const SignUp=()=>{
                 useremail:userEmail,
                }
                console.log(arr);
-               await axios.post("http://localhost:3000/account",arr);
+             
                setName("");
                setNameErr("");
                setPass("");
                setPasserr("");
                setPass1("");
-               nav('/signin')
+               nav('/');
             }
         }
 

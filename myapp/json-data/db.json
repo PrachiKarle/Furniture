@@ -3,14 +3,20 @@
     {
       "id": 1,
       "username": "Prachi",
-      "useremail":"prachi@gmai.com",
+      "useremail": "prachi@gmai.com",
       "password": "prachi@23"
     },
     {
       "username": "Ashwini",
-      "useremail":"ash@gmai.com",
+      "useremail": "ash@gmai.com",
       "password": "ash@23",
       "id": 2
+    },
+    {
+      "username": "ABC",
+      "password": "abc@2308",
+      "useremail": "abc@gmail.com",
+      "id": 3
     }
   ]
 }

@@ -8,7 +8,6 @@ const Service = () => {
     <>
       <Heading data={"Services"} />
       <Service2/>
-      <Service2/>
       <Service1/>
     </>
   );

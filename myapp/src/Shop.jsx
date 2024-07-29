@@ -7,7 +7,7 @@ const Shop = () => {
     <>
       <Heading data={"Shop"} />
       <Shop1 />
-      <Shop1 />
+      
     </>
   );
 };

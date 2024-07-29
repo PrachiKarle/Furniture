@@ -9,7 +9,8 @@ const Sign = () => {
   const save=async(e)=>{
      e.preventDefault();
      let flag=false;
-     const acc=await axios.get("http://localhost:3000/account");
+     const acc=await axios.get("https://prachikarle.github.io/JSON-Server/db.json");
+     console.log(acc.data);
      for(let x of acc.data){
         if(x.username==userName && x.password==userPass){
            flag=true;

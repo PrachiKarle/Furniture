@@ -7,8 +7,7 @@ const Blog = () => {
     <>
       <Heading data={"Blog"} />
       <Blog1/>
-      <Blog1/>
-      <Blog1/>
+      
     </>
   );
 };

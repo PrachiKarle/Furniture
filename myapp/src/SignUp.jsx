@@ -59,8 +59,8 @@ const SignUp=()=>{
     }
     return(
         <>
-         <div className="row m-0 py-4">
-        <div className="col-lg-6 col-md-8 col-sm-10 col-12 p-5 m-auto cls">
+         <div className="row m-0 py-4 cls">
+        <div className="col-lg-6 col-md-8 col-sm-10 col-12 p-5 m-auto">
           <form action="" onSubmit={(e)=>{save(e)}}>
              <div className="form-group my-3">
                 <label htmlFor="">Username: </label>

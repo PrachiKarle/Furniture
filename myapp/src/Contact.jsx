@@ -29,9 +29,9 @@ const Contact = () => {
       <Heading data={"Contact Us"} />
 
       <div className="row m-0 p-5">
-        <div className="col-md-8 col-11 m-auto">
+        <div className="col-lg-8  col-12 m-auto">
           <div className="row m-0 p-0">
-            <div className="col-4 d-flex justify-content-between">
+            <div className="col-md-4 col-12 d-md-flex d-block">
               <button
                 className="btn px-3 mx-2"
                 style={{ backgroundColor: "#3B5D50", height: "40px" }}
@@ -40,7 +40,7 @@ const Contact = () => {
               </button>
               <p>43 Raymouth Rd. Baltemoer, London</p>
             </div>
-            <div className="col-4 d-flex justify-content-between">
+            <div className="col-md-4 col-12 d-md-flex d-block">
               <button
                 className="btn px-3 mx-2"
                 style={{ backgroundColor: "#3B5D50", height: "40px" }}
@@ -49,7 +49,7 @@ const Contact = () => {
               </button>
               <p>info@yourdomain.com</p>
             </div>
-            <div className="col-4 d-flex justify-content-between">
+            <div className="col-md-4 col-12 d-md-flex d-block">
               <button
                 className="btn px-3 mx-2"
                 style={{ backgroundColor: "#3B5D50", height: "40px" }}

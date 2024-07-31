@@ -4,7 +4,7 @@ const Blog1 = () => {
   return (
     <>
       {/* Blog */}
-      <div className="row m-0 cls p-5" style={{ height: "85vh" }}>
+      <div className="row m-0 cls p-5 pb-2" >
         
         {/* blog 1 */}
         <div className="col-md-4 col-12 m-md-0 m-auto p-3">
@@ -33,7 +33,8 @@ const Blog1 = () => {
           </h6>
         </div>
       </div>
-      <div className="row m-0 cls p-5" style={{ height: "85vh" }}>
+
+      <div className="row m-0 cls p-5 pt-3">
         
         {/* blog 1 */}
         <div className="col-md-4 col-12 m-md-0 m-auto p-3">

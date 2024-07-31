@@ -17,7 +17,7 @@ const About = () => {
 
         <div className="col-12 m-0 p-0 ">
           <div className="row m-0 p-0">
-            <div className="col-lg-3 p-3">
+            <div className="col-lg-3 col-md-6 col-12 p-3">
               <img src="images/person_1.jpg" height="50%" width="100%" alt="" />
               <div className="my-4" height="50%" width="100%">
                 <h2>Lawson Arnold</h2>
@@ -29,7 +29,7 @@ const About = () => {
                 
               </div>
             </div>
-            <div className="col-lg-3 p-3">
+            <div className="col-lg-3 col-md-6 col-12 p-3">
               <img src="images/person_2.jpg" height="50%" width="100%" alt="" />
               <div className="my-4" height="50%" width="100%">
                 <h2>Jeremy Walker</h2>
@@ -41,7 +41,7 @@ const About = () => {
                 
               </div>
             </div>
-            <div className="col-lg-3 p-3">
+            <div className="col-lg-3 col-md-6 col-12 p-3">
               <img src="images/person_3.jpg" height="50%" width="100%" alt="" />
               <div className="my-4" height="50%" width="100%">
                 <h2>Patrik White</h2>
@@ -53,7 +53,7 @@ const About = () => {
                 
               </div>
             </div>
-            <div className="col-lg-3 p-3">
+            <div className="col-lg-3 col-md-6 col-12 p-3">
               <img src="images/person_4.jpg" height="50%" width="100%" alt="" />
               <div className="my-4" height="50%" width="100%">
                 <h2>Kathryn Ryan</h2>

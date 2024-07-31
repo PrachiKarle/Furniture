@@ -13,7 +13,7 @@ const WhyChoose = () => {
           </p>
 
           <div className="row m-0 p-0 py-3">
-            <div className="col-6">
+            <div className="col-md-6 col-12">
               <img src="images/truck.svg" height="20%" width="40%" alt="" />
               <br />
               <b>Fast & Free Shipping</b>
@@ -22,7 +22,7 @@ const WhyChoose = () => {
                 velit. Aliquam vulputate.
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-md-6 col-12">
               <img src="images/bag.svg" height="20%" width="40%" alt="" />
               <br />
               <b>Easy to Shop</b>
@@ -33,7 +33,7 @@ const WhyChoose = () => {
             </div>
           </div>
           <div className="row m-0 p-0">
-            <div className="col-6">
+            <div className="col-md-6 col-12">
               <img src="images/support.svg" height="20%" width="40%" alt="" />
               <br />
               <b>24/7 Support</b>
@@ -42,7 +42,7 @@ const WhyChoose = () => {
                 velit. Aliquam vulputate.
               </p>
             </div>
-            <div className="col-6">
+            <div className="col-md-6 col-12">
               <img src="images/return.svg" height="20%" width="40%" alt="" />
               <br />
               <b>Hassle Free Returns</b>

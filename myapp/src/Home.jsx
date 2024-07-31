@@ -21,7 +21,7 @@ const Home = () => {
       {/* we help you */}
       <div className="row m-0 cls p-5 pb-0">
         {/* help furni img */}
-        <div className="col-lg-6 col-md-10 col-12 m-lg-0 pb-0 m-auto h-100">
+        <div className="col-lg-6 col-md-10 col-12 m-lg-0 pb-0 m-auto h-100 d-md-block d-none">
           <img
             src="images/10003.jpg"
             width="60%"
@@ -52,7 +52,7 @@ const Home = () => {
             velit imperdiet dolor tempor tristique. Pellentesque habitant morbi
             tristique senectus et netus et malesuada
           </p>
-          <div className="d-flex justify-content-between my-2">
+          <div className="d-md-flex justify-content-md-between my-2">
             <ul>
               <li>Donec vitae odio quis nisl dapibus malesuada</li>
               <li>Donec vitae odio quis nisl dapibus malesuada</li>
